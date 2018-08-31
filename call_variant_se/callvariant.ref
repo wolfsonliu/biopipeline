@@ -1,0 +1,33 @@
+####################
+# reference
+####################
+
+home=$HOME
+
+# the absolute path for bwa index directory
+bwaindexdir=$home/Documents/Reference/Homo_sapiens/UCSC/hg38/Sequence/BWAIndex
+
+# the absolute path for the genome.fa
+genomefa=$home/Documents/Reference/Homo_sapiens/UCSC/hg38/Sequence/BWAIndex/genome.fa
+
+
+####################
+# software
+# Please set the path for softwares before use.
+####################
+
+Fastqc=fastqc
+
+Bwa=bwa
+
+Samtools=samtools
+
+Picard="java -jar $home/.local/env/bioinformatics/bin/picard.jar"
+
+Gatk=$home/Documents/Software/gatk4/gatk
+
+Annotate_variation=annotate_variation.pl
+
+Table_annovar=table_annovar.pl
+
+################################################################################
